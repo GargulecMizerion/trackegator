@@ -2,3 +2,7 @@ spring:
   application:
     name: trackegator
 
+trackegator:
+  carriers:
+    inpost:
+      base-url: https://api-shipx-pl.easypack24.net

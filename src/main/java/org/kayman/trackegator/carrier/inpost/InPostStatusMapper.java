@@ -4,6 +4,7 @@ import org.kayman.trackegator.carrier.spi.ShipmentStatus;
 
 import static org.kayman.trackegator.carrier.spi.ShipmentStatus.*;
 
+// TODO: Przerobic na mapowanie z bazy
 class InPostStatusMapper {
 
     static ShipmentStatus map(String inPostStatus) {
